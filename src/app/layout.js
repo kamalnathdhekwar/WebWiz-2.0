@@ -4,6 +4,8 @@ import "./globals.css";
 import Header from "@/components/Header";
 import CenterComponent from "@/components/CenterComponent";
 import Footer from "@/components/Footer";
+import LandingPage from "@/components/LandingPage";
+import bgImg from "../../public/bgImg.svg"
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -14,11 +16,12 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className="bg-[url('../../public/webBack.svg')]">
-      <body className={inter.className}>{children} 
-      
+    <html lang="en" className="bg-[url('../../public/bgImg.svg')]  bg-cover bg-no-repeat">
+      <body className={inter.className}>
       <Header/>
+      {children}
       <CenterComponent />
+      <LandingPage/>
       <Footer/>
       </body>
     </html>

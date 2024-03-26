@@ -11,7 +11,7 @@ import instagram from '../../public/instagram.svg'
 function Footer() {
   return (
 
-    <div className='bg-slate-900 text-white'>
+    <div className=' text-white'>
 
         <div className='  md:flex-row  lg:px-[81px]  px-[20px]  justify-around flex flex-col'>
 
@@ -21,7 +21,7 @@ function Footer() {
               <p>Need Help ?</p>
             </div>
 
-            <div className='lg:text-[24px] md:text-[20px] text-[16px]'>
+            <div className='lg:text-[24px] md:text-[20px] text-[16px] font-extralight'>
 
              <p>
              Lörem ipsum mer ultrask hyposk, miska än tranerade. Diling monohönera pora bebinera, pack. Dinat teling. Berån pott. Benade pres yn. 
@@ -29,20 +29,20 @@ Sor kvasikilig i trav. Lan kvasilögisk.
              </p>
 
             </div>
-            <div className="flex gap-3 items-center ">
+            <div className="flex gap-6 items-center ">
             
 
-             <a href=""><Image src={linkedin} alt="" className="lg:w-[32px] md:w-[28px]  w-[20px] "/></a>
-             <a href=""><Image src={facebook} alt="" className="lg:w-[32px] md:w-[28px]  w-[20px]" /></a>
-             <a href=""><Image src={github} alt="" className="lg:w-[32px] md:w-[28px]  w-[20px]" /></a>
-             <a href=""><Image src={instagram}alt="" className="lg:w-[32px] md:w-[28px]  w-[20px]" /></a>
-             <a href=""><Image src={twitter}alt="" className="lg:w-[32px] md:w-[28px]  w-[20px]" /></a>
+             <a href=""><Image src={linkedin} alt="" className="lg:w-[34px] md:w-[28px]  w-[20px] "/></a>
+             <a href=""><Image src={facebook} alt="" className="lg:w-[44px] md:w-[28px]  w-[24px]" /></a>
+             <a href=""><Image src={github} alt="" className="lg:w-[39px] md:w-[28px]  w-[21px]" /></a>
+             <a href=""><Image src={instagram}alt="" className="lg:w-[44px] md:w-[28px]  w-[26px]" /></a>
+             <a href=""><Image src={twitter}alt="" className="lg:w-[44px] md:w-[28px]  w-[26px]" /></a>
              
             </div>
 
           </div>
 
-            <div className='flex lg:gap-[84px] md:gap-[50px] gap-[30px] md:mt-0 mt-5'>
+          <div className='flex lg:gap-[84px] md:gap-[50px] gap-[30px] md:mt-0 mt-5'>
 
                 <FooterSub title="About" first="Our Staff" second="Timeline" third="Spell Books" forth="Brand kit" />
 
@@ -50,7 +50,7 @@ Sor kvasikilig i trav. Lan kvasilögisk.
 
                 <FooterSub title="Other" first="One" second="Two" />
 
-           </div>
+          </div>
 
         </div>
 
