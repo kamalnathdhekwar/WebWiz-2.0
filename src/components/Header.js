@@ -5,7 +5,7 @@ import navlogo from '../../public/navlogo.svg'
 
 function Header() {
   return (
-    <div className=' text-white items-center flex bg-slate-700 p-5 justify-evenly'>
+    <div className='bg-black/50 text-white items-center flex p-5 justify-evenly'>
         <nav className="b flex  w-full justify-around">
           <div className='flex gap-9 text-xl'>
           <Link href="/">
@@ -30,7 +30,7 @@ function Header() {
             </button>
 
             <div>
-            <Image src={navlogo} className='cursor-pointer'/>
+            <Image src={navlogo} alt="logo" className='cursor-pointer'/>
             </div>
 
           </div>
