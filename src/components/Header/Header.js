@@ -7,7 +7,7 @@ import links from './links';
 
 function Header() {
   return (
-    <div className="relative bg-black/50 text-white items-center flex p-5 justify-evenly">
+    <div className="relative bg-black/50 text-white items-center flex p-5 justify-evenly ">
       <nav className="max-md:hidden flex  w-full justify-around items-center">
         <div className="flex w-1/2 justify-between items-center text-xl">
           {

@@ -11,7 +11,7 @@ import instagram from '../../public/instagram.svg'
 function Footer() {
   return (
 
-    <div className='py-10 text-white mt-20 mb-5'>
+    <div className='py-10 text-white lg:mt-[16rem] mb-5'>
 
         <div className='  md:flex-row  lg:px-[81px]  px-[20px]  justify-around flex flex-col'>
 
@@ -29,7 +29,7 @@ Sor kvasikilig i trav. Lan kvasilögisk.
              </p>
 
             </div>
-            <div className="flex gap-6 items-center ">
+            <div className="flex gap-3 items-center ">
             
 
              <a href=""><Image src={linkedin} alt="" className="lg:w-[34px] md:w-[28px]  w-[20px] "/></a>

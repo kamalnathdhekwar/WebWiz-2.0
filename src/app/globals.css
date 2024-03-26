@@ -4,7 +4,7 @@
 
 
 body{ 
-    @apply min-h-screen w-screen overflow-x-hidden bg-[url('/bg.png')] object-cover bg-top ;
+    @apply min-h-screen w-screen overflow-x-hidden bg-[url('/bgimg.svg')]  bg-cover bg-no-repeat ;
 }
 
 
