@@ -23,11 +23,11 @@ function Header() {
           </div>
           
           <div className='flex  justify-between  '>
+          <Link href="/sign-up">
             <button className='cursor-pointer bg-green-700 px-9 py-[6px] rounded-lg'>
-            <Link href="/sign-up">
             <p className='cursor-pointer'>Sign Up</p>
-           </Link>
             </button>
+          </Link>
 
             <div>
             <Image src={navlogo} className='cursor-pointer'/>
