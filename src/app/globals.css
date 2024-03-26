@@ -6,3 +6,8 @@
 body{ 
     @apply min-h-screen w-screen overflow-x-hidden bg-[url('/bg.png')] object-cover bg-top ;
 }
+
+
+.btn-hover-animate {
+    @apply hover:scale-105 duration-300;
+}

@@ -22,7 +22,7 @@ function Header() {
         </div>
 
         <div className="flex  justify-between  gap-5">
-          <button className="cursor-pointer bg-green-500/70 px-9 py-[4px] rounded-lg">
+          <button className="cursor-pointer bg-green-500/70 px-9 py-[4px] rounded-lg btn-hover-animate">
             <Link href="/sign-up">Sign Up</Link>
           </button>
 
