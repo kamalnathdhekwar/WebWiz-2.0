@@ -15,6 +15,9 @@ module.exports = {
       colors: {
         "light-green": "#B3CA8B",
       },
+      fontFamily: {
+        Cinzel: ["Cinzel Decorative", "serif"],
+      },
     },
   },
   plugins: [],
