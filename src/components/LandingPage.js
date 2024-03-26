@@ -6,12 +6,12 @@ function LandingPage() {
     <div className="min-h-[90vh] grid place-content-center">
       <div className="flex flex-col justify-between items-center gap-8">
         <div className="">
-          <p className=" text-white lg:text-[160px] md:text-[120px]  sm:text-[90px] text-[60px] font-bold ">
+          <p className="font-Cinzel  text-white lg:text-[150px] md:text-[110px]  sm:text-[80px] text-[60px] font-bold ">
             Lorem Ipsum
           </p>
         </div>
 
-        <div className="lg:text-black md:font-extrabold md:w-[580px] w-[400px] text-slate-100 font-bold">
+        <div className="text-black md:font-extrabold md:w-[580px] w-[400px]  font-bold">
           <p className="text-center lg:text-[20px] text-[16px] ">
             Lörem ipsum mer ultrask hyposk, miska än tranerade. Diling
             monohönera pora bebinera, pack. Prelig ode, monogt serar. Hoholedes{" "}

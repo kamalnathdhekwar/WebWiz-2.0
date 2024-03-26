@@ -11,7 +11,7 @@ import instagram from '../../public/instagram.svg'
 function Footer() {
   return (
 
-    <div className='py-10 text-white mt-12 mb-5'>
+    <div className='py-10 text-white mt-20 mb-5'>
 
         <div className='  md:flex-row  lg:px-[81px]  px-[20px]  justify-around flex flex-col'>
 

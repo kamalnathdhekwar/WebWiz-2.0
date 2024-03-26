@@ -1,7 +1,7 @@
 import Image from "next/image"
 const CenterImage = ({imageToDisplay}) => {
   return (
-    <div className="w-[400px] h-[550px]">
+    <div className="lg:w-[400px] lg:h-[550px] md:w-[300px] md:h-[350px] w-[200px] h-[250px]  justify-center items-center ">
         <Image src={imageToDisplay}  alt=""></Image>
     </div>
   )
