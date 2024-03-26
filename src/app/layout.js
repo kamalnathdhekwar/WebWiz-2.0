@@ -2,6 +2,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 
 import Header from "@/components/Header";
+import CenterComponent from "@/components/CenterComponent";
 import Footer from "@/components/Footer";
 import LandingPage from "@/components/LandingPage";
 import bgImg from "../../public/bgImg.svg"
@@ -17,10 +18,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className="bg-[url('../../public/bgImg.svg')]  bg-cover bg-no-repeat">
       <body className={inter.className}>
-      {children} 
-      
-
       <Header/>
+      {children}
+      <CenterComponent />
       <LandingPage/>
       <Footer/>
       </body>
