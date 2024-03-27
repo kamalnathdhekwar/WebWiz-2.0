@@ -5,10 +5,13 @@ import { FiAlignLeft } from "react-icons/fi";
 import Drawer from './Drawer';
 import links from './links';
 
+import img2dis from '../../../public/GDSCLogo.svg'
+
 function Header() {
   return (
     <div className="relative bg-black/50 text-white items-center flex p-5 justify-evenly ">
       <nav className="max-md:hidden flex  w-full justify-around items-center">
+      <Image src={img2dis}  className='w-[85px] h-[41px]' alt="" />
         <div className="flex w-1/2 justify-between items-center text-xl">
           {
             links.map(link => {

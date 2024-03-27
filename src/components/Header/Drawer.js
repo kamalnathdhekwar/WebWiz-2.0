@@ -6,6 +6,8 @@ import navLinks from './links';
 import { IoMdClose } from "react-icons/io";
 
 
+
+
 const Drawer = () => {
 
     const [showDrawer, setshowDrawer] = useState(false)
@@ -27,6 +29,7 @@ const Drawer = () => {
                 setshowDrawer(false);
             }}/>
             <ul className="flex flex-col gap-5 text-2xl">
+              
               {navLinks.map((link) => {
                 return (
                   <li key={link.id} className="cursor-pointer">

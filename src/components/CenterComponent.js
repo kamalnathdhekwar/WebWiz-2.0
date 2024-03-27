@@ -14,12 +14,12 @@ const CenterComponent = () => {
         <CenterContent  heading="Blue Crystal Ice" content="Lörem ipsum mer ultrask hyposk, miska än tranerade. Diling monohönera pora bebinera, pack. Dinat teling. Berån pott. Benade pres yn. Sor kvasikilig i trav. Lan kvasilögisk. Pomyligen bissa sede yrar gigasm. Ysade fenade kawaii. Prelig ode, monogt serar. Hoholedes hypomöment medan kartad polågen mikrotiktigt. Dende veganisera är vinas bästsäljerism. Skynka igisk mar om bemeliga lande. Misa trende plalelingar merade dekas. Regt tylåligen eftersom bede."/>
       </div>
 
-      <div className='flex lg:flex-row  flex-col items-center justify-around w-full'>
+      <div className='flex lg:flex-row  flex-col-reverse items-center justify-around w-full'>
         <CenterContent  heading="MAGICAL TONIC" content="Lörem ipsum mer ultrask hyposk, miska än tranerade. Diling monohönera pora bebinera, pack. Dinat teling. Berån pott. Benade pres yn. Sor kvasikilig i trav. Lan kvasilögisk. Pomyligen bissa sede yrar gigasm. Ysade fenade kawaii. Prelig ode, monogt serar. Hoholedes hypomöment medan kartad polågen mikrotiktigt. Dende veganisera är vinas bästsäljerism. Skynka igisk mar om bemeliga lande. Misa trende plalelingar merade dekas. Regt tylåligen eftersom bede."/>
         <CenterImage imageToDisplay={imageAddress2}/>
       </div>
 
-      <div className='flex lg:flex-row  flex-col-reverse  items-center mb-12 justify-around w-full'>
+      <div className='flex lg:flex-row  flex-col  items-center mb-12 justify-around w-full'>
         <CenterImage imageToDisplay={imageAddress3}/>
         <CenterContent  heading="IPSUM ISLAND" content="Lörem ipsum mer ultrask hyposk, miska än tranerade. Diling monohönera pora bebinera, pack. Dinat teling. Berån pott. Benade pres yn. Sor kvasikilig i trav. Lan kvasilögisk. Pomyligen bissa sede yrar gigasm. Ysade fenade kawaii. Prelig ode, monogt serar. Hoholedes hypomöment medan kartad polågen mikrotiktigt. Dende veganisera är vinas bästsäljerism. Skynka igisk mar om bemeliga lande. Misa trende plalelingar merade dekas. Regt tylåligen eftersom bede."/>
       </div>
