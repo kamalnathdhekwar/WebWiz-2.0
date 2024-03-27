@@ -23,7 +23,7 @@ const Drawer = () => {
         />
         Web Wizard
         {showDrawer && (
-          <div className="fixed z-10 top-0 bottom-0 left-0 h-screen w-full max-w-[400px] text-black bg-white backdrop:blur-md flex flex-col items-center justify-center duration-500 ease-in-out">
+          <div className="fixed z-10 top-0 bottom-0 left-0 h-full w-full max-w-[400px] text-black bg-white backdrop:blur-md flex flex-col items-center justify-center duration-500 ease-in-out">
             <div className="absolute top-10">WebWizard</div>
             <IoMdClose className='absolute top-10 left-5 text-2xl font-bold cursor-pointer' onClick={() => {
                 setshowDrawer(false);

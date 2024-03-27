@@ -11,17 +11,20 @@ function Header() {
   return (
     <div className="relative bg-black/50 text-white items-center flex p-5 justify-evenly ">
       <nav className="max-md:hidden flex  w-full justify-around items-center">
-      <Image src={img2dis}  className='w-[85px] h-[41px]' alt="" />
+        <Image src={img2dis}  className='w-[85px] h-[41px]' alt="" />
         <div className="flex w-1/2 justify-between items-center text-xl">
-          {
-            links.map(link => {
-              return (
-                <Link key={link.id} href={link.link}>
-                  <p className="cursor-pointer">{link.title}</p>
-                </Link>
-              );
-            })
-          }
+            <Link href="/">
+            <p className="cursor-pointer">Home</p>
+            </Link>
+            <Link href="/">
+            <p className="cursor-pointer">About</p>
+            </Link>
+            <Link href="/">
+            <p className="cursor-pointer">Contact</p>
+            </Link>
+            <Link href="/">
+            <p className="cursor-pointer">Support</p>
+            </Link>
         </div>
 
         <div className="flex  justify-between  gap-5">
